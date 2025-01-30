@@ -1,0 +1,31 @@
+# SSID for Wifi
+SSID = "xxxxxx"
+# Password for Wifi
+PASSWORD = "xxxxxxxxx"
+# Token for Golemio
+TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+# List of queried stops
+STOPS=[
+{ "id": "U195Z1P", "descr": "Presticka -> Opatov", "time2go": 5 },
+{ "id": "U195Z2P", "descr": "Presticka -> Skalka", "time2go": 5 },
+{ "id": "U219Z1P", "descr": "K Ob.haj. -> Opatov", "time2go": 10 },
+{ "id": "U219Z2P", "descr": "K Ob.haj. -> C.Most", "time2go": 10 }
+]
+# Number of requested records
+QUERY_LIMIT=9
+# Number of seconds to refresh the display
+DISPLAY_REFRESH=15
+# Password to Webrepl (TODO)
+WEBREPL_PASSWORD = "xxxxxxxx"
+# Offset to UTC (needs to be manually adjusted to support daylight changes)
+UTC_OFFSET = 1
+# Rotation of the display
+DISPLAY_ROTATION=0
+# Maximum display backlight in %
+BACKLIGHT_MAX=80
+# Minimum display backlight
+BACKLIGHT_MIN=0
+# Pin to connect PIR sensor
+PIR_PIN=0
+# PIR sensor enabled
+PIR_ENABLED=True
